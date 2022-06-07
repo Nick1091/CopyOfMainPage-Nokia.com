@@ -132,14 +132,14 @@ a{
     right: 0;
     width: 12px;
     height: 12px;
-    background-image: url(svgs_collection/dropdown.svg);
+    background-image: url(./svgs_collection/dropdown.svg);
     background-position-y: bottom;
     background-position-x: center;
     background-repeat: no-repeat;
     transform: rotate(90deg) translateY(6px);
 }
 .navigation__list::after:hover{
-    background-image: url(svgs_collection/dropdown_blue.svg);
+    background-image: url(./svgs_collection/dropdown_blue.svg);
 }
 .navigation__list :hover{
     cursor: pointer;
@@ -274,7 +274,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    background-image: url(img/NOKIA_\ HOME\ PAGE\ IMAGE_1920x750px\ Woman\ and\ light\ bulbs_02_5.jpg); 
+    background-image: url(./img/NOKIA_\ HOME\ PAGE\ IMAGE_1920x750px\ Woman\ and\ light\ bulbs_02_5.jpg); 
     transform: translateY(0px);
 }
 @media (min-width: 720px){
@@ -287,7 +287,7 @@ a{
 }
 @media (max-width: 719px){
 .top__content  {
-    background-image: url(img/NOKIA\ HOME\ PAGE\ IMAGE_720x412px\ Woman\ and\ light\ bulbs_02_5.webp) !important;
+    background-image: url(./img/NOKIA\ HOME\ PAGE\ IMAGE_720x412px\ Woman\ and\ light\ bulbs_02_5.webp) !important;
     background-position: center center !important;}
 }
 .top__content .container{
@@ -359,7 +359,6 @@ a{
     background-color: rgb(255, 255, 255) ;
     margin-top: 48px;
     z-index: 3;
-    /* border: solid 1px #2965ED; */
     position: relative;
     font-size: 16px;
     display: inline-block;
@@ -367,7 +366,6 @@ a{
     padding: 13px 8px 13px;
     border-radius: 3px;
     border: solid 1px #fff;
-    /* background-color: #0065ed; */
     font-weight: normal;
     line-height: 1.54;
     color: rgb(9, 107, 238);
@@ -749,7 +747,7 @@ a{
     width: 40px;
     height: 40px;
     border: 1px solid rgba(255,255,255,0.15);
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
 .footer__social li:hover{
@@ -843,9 +841,7 @@ a{
 .btn_1 {
     background-color: rgb(255, 255, 255) ;
      z-index: 3;
-    /* border: solid 1px #2965ED; */
     position: relative;
-    /* background-color: #0065ed; */
     font-weight: normal;
     color: rgb(9, 107, 238);}
     

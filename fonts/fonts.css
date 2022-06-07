@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'NokiaPureHeadlineLight';
+	src: url('../my_first_page/fonts/NokiaPureHeadline_Lt.eot');
+	src: local('☺'), url('../my_first_page/fonts/NokiaPureHeadline_Lt.woff') format('woff'), url('../my_first_page/fonts/NokiaPureHeadline_Lt.ttf') format('truetype'), url('../my_first_page/fonts/NokiaPureHeadline_Lt.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'NokiaPureHeadline';
+	src: url('../my_first_page/fonts/NokiaPureHeadline_Rg.eot');
+	src: local('☺'), url('../my_first_page/fonts/NokiaPureHeadline_Rg.woff') format('woff'), url('../my_first_page/fonts/NokiaPureHeadline_Rg.ttf') format('truetype'), url('../my_first_page/fonts/NokiaPureHeadline_Rg.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_arial';
+	src: url('../my_first_page/fonts/arial.eot');
+	src: local('☺'), url('../my_first_page/fonts/arial.woff') format('woff'), url('../my_first_page/fonts/arial.ttf') format('truetype'), url('../my_first_page/fonts/arial.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
